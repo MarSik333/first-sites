@@ -12,10 +12,10 @@ html, body {
 
 .menu-main {
   list-style: none;
-  margin: 40px 0 5px;
-  padding: 25px 0 5px;
-  text-align: center;
-  background: white; }
+  margin: 0px 0 5px;
+  padding: 25px 250px 5px;
+  text-align: right;
+ }
 
 .menu-main li {
   display: inline-block; }
