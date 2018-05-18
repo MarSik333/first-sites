@@ -6,58 +6,53 @@ html, body {
   padding: 0;
   margin: 0; }
 
+.logo {
+  height: 8%;
+  width: 8%;
+  margin-left: 15vw; }
+
 .header {
-  height: 800px;
+  height: 100vh;
   background-image: url(../images/header-img.jpg); }
+
+.header-top {
+  border-bottom: 2px solid #feb385;
+  margin-bottom: 0px; }
 
 .menu-main {
   list-style: none;
-  margin: 0px 0 5px;
+  margin: 0 0 -55px;
   padding: 25px 250px 5px;
-  text-align: right;
- }
-
-.menu-main li {
-  display: inline-block; }
-
-.menu-main li:after {
-  content: "|";
-  color: #606060;
-  display: inline-block;
-  vertical-align: top; }
-
-.menu-main li:last-child:after {
-  content: none; }
-
-.menu-main a {
-  text-decoration: none;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  letter-spacing: 2px;
-  position: relative;
-  padding-bottom: 20px;
-  margin: 0 34px 0 30px;
-  font-size: 17px;
-  text-transform: uppercase;
-  display: inline-block;
-  transition: color .2s; }
-
-.menu-main a, .menu-main a:visited {
-  color: #9d999d; }
-
-.menu-main a.current, .menu-main a:hover {
-  color: #feb386; }
-
-.menu-main a:before,
-.menu-main a:after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  top: auto;
-  right: 50%;
-  bottom: -5px;
-  left: 50%;
-  background: #feb386;
-  transition: .8s; }
+  text-align: right; }
+  .menu-main li {
+    display: inline-block; }
+    .menu-main li:last-child::after {
+      content: none; }
+  .menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s; }
+    .menu-main a:visited {
+      color: white; }
+    .menu-main a.current, .menu-main a:hover {
+      color: #9a6737; }
+    .menu-main a:before, .menu-main a:after {
+      content: "";
+      position: absolute;
+      height: 4px;
+      top: auto;
+      right: 50%;
+      bottom: -5px;
+      left: 50%;
+      background: #feb386;
+      transition: .8s; }
 
 .menu-main a:hover:before, .menu-main .current:before {
   left: 0; }
@@ -75,3 +70,34 @@ html, body {
   .menu-main a {
     padding: 25px 0 20px;
     margin: 0 30px; } }
+
+.text {
+  position: absolute;
+  left: 22vw;
+  margin: 20vh 0 0; }
+
+.textcenter {
+  color: white;
+  font-family: "Andale Mono";
+  font-size: 150px; }
+
+.textlittle {
+  color: #9a6737;
+  font-family: "Andale Mono";
+  font-size: 33px;
+  letter-spacing: 16px; }
+
+.textmaine {
+  height: 25vh;
+  width: 100%;
+  text-align: center;
+  background-color: #dcc0a3;
+  padding-top: 70px;
+  font-family: "Andale Mono";
+  font-size: 33px;
+  color: white; }
+
+.catalog {
+  height: 60vh;
+  width: 100%;
+  background-color: #dcc0a3; }
